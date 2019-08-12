@@ -16,7 +16,7 @@ public class Escola {
     private String endereco;
     private String sigla;
     private Integer nalunos;
-    private Integer area;
+    private Double area;
 
     public Integer getCodigo() {
         return codigo;
@@ -58,11 +58,11 @@ public class Escola {
         this.nalunos = nalunos;
     }
 
-    public Integer getArea() {
+    public Double getArea() {
         return area;
     }
 
-    public void setArea(Integer area) {
+    public void setArea(Double area) {
         this.area = area;
     }
 
